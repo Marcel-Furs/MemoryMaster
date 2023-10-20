@@ -1,0 +1,42 @@
+﻿<Window x:Class="MemoryMaster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryMaster"
+        mc:Ignorable="d"
+        Title="MemoryMaster" Height="522" Width="857"
+         WindowStartupLocation="CenterScreen"
+         ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Memory Master" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="57" Width="187" FontSize="24"/>
+        <Button x:Name="B1" Content="1" HorizontalAlignment="Left" Margin="179,68,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt1" BorderBrush="#FF707070" FontSize="36"/>
+        <Button x:Name="B2" Content="2" HorizontalAlignment="Left" Margin="316,68,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt2" FontSize="36"/>
+        <Button x:Name="B3" Content="3" HorizontalAlignment="Left" Margin="455,68,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt3" FontSize="36"/>
+        <Button x:Name="B4" Content="4" HorizontalAlignment="Left" Margin="595,68,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt4" FontSize="36"/>
+        <Button x:Name="B5" Content="5" HorizontalAlignment="Left" Margin="179,173,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt5" FontSize="36"/>
+        <Button x:Name="B6" Content="6" HorizontalAlignment="Left" Margin="316,173,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt6" FontSize="36"/>
+        <Button x:Name="B7" Content="7" HorizontalAlignment="Left" Margin="455,173,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt7" FontSize="36"/>
+        <Button x:Name="B8" Content="8" HorizontalAlignment="Left" Margin="595,173,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt8" FontSize="36"/>
+        <Button x:Name="B9" Content="9" HorizontalAlignment="Left" Margin="179,274,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt9" FontSize="36"/>
+        <Button x:Name="B10" Content="10" HorizontalAlignment="Left" Margin="316,274,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt10" FontSize="36"/>
+        <Button x:Name="B11" Content="11" HorizontalAlignment="Left" Margin="455,274,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt11" FontSize="36"/>
+        <Button x:Name="B12" Content="12" HorizontalAlignment="Left" Margin="595,274,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt12" FontSize="36"/>
+        <Button x:Name="B13" Content="13" HorizontalAlignment="Left" Margin="179,373,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt13" FontSize="36"/>
+        <Button x:Name="B14" Content="14" HorizontalAlignment="Left" Margin="316,373,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt14" FontSize="36"/>
+        <Button x:Name="B15" Content="15" HorizontalAlignment="Left" Margin="455,373,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt15" FontSize="36"/>
+        <Button x:Name="B16" Content="16" HorizontalAlignment="Left" Margin="595,373,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="Bt16" FontSize="36">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}"/>
+            </Button.BorderBrush>
+        </Button>
+        <Label Content="Ilość prób:" HorizontalAlignment="Left" Margin="595,10,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="739,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="754,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name ="t1" HorizontalAlignment="Left" Margin="711,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57" FontSize="24" />
+        <TextBox x:Name ="t2" HorizontalAlignment="Left" Margin="41,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="72" FontSize="24"/>
+        <Label Content="Ilośc &#xD;&#xA;znalezionych:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="24" Height="77" Width="152"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="91" Width="150" FontSize="36" BorderBrush="#FFE81FD7" Click="Button_Click"/>
+
+    </Grid>
+</Window>
